@@ -81,6 +81,7 @@ function loadLists() {
                 const li = document.createElement('li');
                 li.textContent = `Consulta de ${consulta.paciente.nome} com Dr(a). ${consulta.medico.nome} - ${consulta.tipoConsulta} em ${consulta.dataHora}`;
                 consultaList.appendChild(li);
+                
             });
         });
 }
@@ -179,3 +180,4 @@ function initializeApp() {
 }
 
 initializeApp();
+
