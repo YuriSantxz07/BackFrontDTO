@@ -72,7 +72,7 @@ function loadLists() {
             });
         });
 
-    // Carrega consultas
+    // Carrega consultas //     aqui esta o erro de nao emitir
     fetchData(`${API_BASE_URL}/consultas`)
         .then(data => {
             const consultaList = document.getElementById('consulta-list');
